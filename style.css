@@ -1,0 +1,509 @@
+/* PAGE INDEX */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+}
+
+img {
+    width: 100%; /* Prend toute la place dispo */
+    height: 100ù; /* Ajuste selon ton besoin */
+    object-fit: contain; /* Garde tout visible */
+}
+
+footer {
+    background-color: brown !important;
+}
+
+
+.icon {
+    display: inline-block; /* Permet au span de prendre une largeur propre */
+    width: 40px; /* Ajuste selon la taille de l'icône */
+    height: 40px;
+}
+
+.icon2 {
+    display: inline-block; /* Permet au span de prendre une largeur propre */
+    width: 356px; /* Ajuste selon la taille de l'icône */
+    height: 356px;
+}
+
+a {
+    color: white; /* Définit la couleur du texte en blanc */
+    text-decoration: none; /* Enlève le soulignement */
+}
+
+
+.bouton button{
+    display : inline-block;
+    width: 356px;
+    height: 50px; 
+    background-color: none; /* Couleur de fond */
+    color: white; /* Couleur du texte */
+    font-weight: bold; /* Met le texte en gras */
+}
+
+.btn-link {
+    display: inline-block;
+    width: 356px;
+    height: 50px; 
+    padding: 10px 20px;
+    background-color: brown;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 10px;
+    text-align: center;
+}
+.btn-link:hover {
+    background-color: darkred;
+    color:white;
+}
+
+
+.title {
+    display: inline-block; /* Permet au span de prendre une largeur propre */
+    height: 40px;
+    color:black;
+}
+
+.link-list {
+    list-style: none; /* Supprime les puces des <ul> */
+    padding: 0; /* Évite un décalage à gauche */
+    margin: 0;
+}
+
+.list-item::marker {
+    content: none; /* Supprime le ::marker */
+}
+
+
+
+/* Header */
+
+/* Style de l'en-tête fixe */
+.header {
+    position: fixed; /* Fixe l'en-tête en haut */
+    top: 0; /* Collé en haut */
+    left: 0;
+    width: 100%; /* Largeur complète */
+    height: 100px; /* Hauteur de l'en-tête */
+    background-color: brown; /* Couleur de fond */
+    color: white; /* Texte en blanc */
+    text-align: center; /* Centrage du texte */
+    line-height: 60px; /* Centrage vertical */
+    font-size: 20px;
+    font-weight: bold;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Ombre légère */
+    z-index: 1000; /* Reste au-dessus des autres éléments */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+/* Pour éviter que le contenu ne soit caché sous l'en-tête */
+.content {
+    margin-top: 80px; /* Ajoute un espace en haut pour compenser l'en-tête */
+    padding: 20px;
+}
+
+/* 🔹 Grille de Bootstrap */
+.container-fluid {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+/* 🔹 Logo */
+.logo img {
+    height: 100px;
+    top:0;
+    left:0;
+    width: auto;
+}
+
+.container_info{
+    position:relative;
+    width:500px;
+    height:75px;
+    top:50px;
+    background-color: white;
+    border: 1px solid darkred; /* Contour rouge */
+    display:flex;
+}
+
+/* 🔹 Menu "Services" */
+.nav-menu {
+    position: relative;
+    width:150px;
+    height:75px;
+}
+
+/* 🔹 Bouton "Services" */
+.menu-btn {
+    position:relative;
+    background: none;
+    width:150px;
+    height:75px;
+    color: brown;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+}
+
+/* 🔹 Sous-menu déroulant */
+.dropdown {
+    display: none;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    background-color: white;
+    min-width: 200px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    border: 1px solid darkred; /* Contour rouge */
+    white-space: nowrap; /* Empêche le texte de passer à la ligne */
+}
+
+/* 🔹 Liens du sous-menu */
+.dropdown a {
+    height : 40px;
+    display: block;
+    color: brown;
+    text-decoration: none;
+    border: 1px solid darkred; /* Contour rouge */
+    text-align: center; /* Centre les éléments à l'intérieur */
+    line-height: 40px; /* Centre verticalement */
+    font-size: 14px;
+}
+
+.dropdown a:hover {
+    background-color: whitesmoke;
+}
+
+/* 🔹 Afficher le menu au survol */
+.nav-menu:hover .dropdown {
+    display: block;
+}
+
+.separator {
+    position:relative;
+    background-color: brown;     /* Couleur de la barre verticale */
+    display: inline-block; /* Garde le séparateur sur la même ligne */
+    vertical-align: middle; /* Aligne verticalement avec le texte */
+    width:2px;
+    height:60px;
+    top:7px;
+}
+
+.contact{
+    position:relative;
+    color:brown;
+    text-decoration:none;
+    width:150px;
+    height:75px;
+    font-size: 18px;
+    top:10px;
+}
+
+/* 🔹 Bouton "Connect/Login" */
+.login-button {
+    background-color: brown;
+    color: white;
+    font-weight: bold;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.login-button:hover {
+    background-color: darkred;
+}
+
+.col-6.d-flex {
+    gap: 50px; /* Ajuste l'espacement entre les éléments */
+}
+/* Header */
+
+
+
+
+
+
+
+
+
+
+
+/* 
+PAGE LOGIN
+*/
+
+/* 🔹 Logo */
+.page-login .logo1 img {
+    height: 100px;
+    top:0;
+    left:0;
+    width: auto;
+}
+
+.page-login  {
+    background-color: white;
+}
+
+.page-login .container{
+    position : relative;
+    width: 500px; 
+    margin: 100px auto; /* Centrage vertical et horizontal */
+    padding: 20px;
+    background-color: white; 
+    border: 3px solid darkred; 
+    border-radius: 10px; 
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2); 
+    text-align: center; 
+    top:100px;
+}
+
+.page-login .btn-retour {
+    position: absolute;
+    top: 10px; /* Ajuste la distance depuis le haut */
+    left: 10px; /* Ajuste la distance depuis la gauche */
+    background-color: brown; /* Couleur du fond */
+    color: white; /* Couleur du texte */
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    text-decoration: none;
+}
+
+.page-login .btn-retour:hover {
+    background-color: darkred; /* Changement de couleur au survol */
+}
+
+
+/* Ajuster le logo */
+.page-login .logo img {
+    display: block;
+    margin: 0 auto 20px; /* Centrer et ajouter un espace en bas */
+}
+
+/* Style des inputs */
+.page-login .entree {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px; /* Espacement entre chaque input */
+}
+
+.page-login .entree input {
+    width: 100%; /* Ajuste la largeur */
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+}
+
+/* Style du bouton */
+.page-login .bouton button {
+    width: 100%;
+    padding: 10px;
+    background-color: brown;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.page-login .bouton button:hover {
+    background-color: darkred;
+}
+
+.page-login .options {
+    display: flex;
+    justify-content: space-between; /* Sépare les deux liens */
+    margin-top: 10px; /* Espace au-dessus */
+    font-size: 14px;
+}
+
+.page-login .options a {
+    text-decoration: none; /* Supprime le soulignement */
+    color: black; /* Couleur du lien */
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.page-login .options a:hover {
+    text-decoration: underline; /* Ajoute un soulignement au survol */
+    color: darkblue; /* Changement de couleur au survol */
+}
+
+
+
+
+
+
+/*
+/*
+/*
+/*
+PAGE CONTACT
+*/
+
+.page-contact .content{
+    position : relative;
+    display : flex;
+    gap:35px;
+}
+
+.page-contact .container-maroc{
+    position:relative;
+    width:48%;
+    height:400px;
+    border: 3px solid darkred; 
+}
+
+.page-contact .title{
+    position:relative;
+    font-size: 23px;
+    color:darkred;
+    top:10px;
+    left:20px;
+}
+
+.page-contact .texte{
+    font-size: 18px;
+}
+
+
+
+
+
+/*
+/*
+/*
+/*
+/*
+PAGE TRANSPORT
+/*
+/*
+/*
+/*
+*/
+
+.page-transport .content{
+    display : flex;
+    justify-content: center;
+}
+
+.page-transport .container-form{
+    position : relative;
+    width : 500px;
+    top:100px;
+    background-color: white; 
+    border: 3px solid darkred; 
+    border-radius: 10px; 
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2); 
+    text-align: center; 
+}
+
+.page-transport .title-transport{
+    height: 40px;
+    font-size: 20px;
+    color:darkred
+}
+
+/* Style des inputs */
+.page-transport .trans-input {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px; /* Espacement entre chaque input */
+}
+
+.page-transport .trans-input input {
+    position:relative;
+    left:5%;
+    width: 90%; /* Ajuste la largeur */
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+    align-items:center;
+}
+
+.page-transport .trans-input-date input {
+    position:relative;
+    width: 50%; /* Ajuste la largeur */
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+    align-items:center;
+    margin-bottom: 30px; /* Espacement entre chaque input */
+
+}
+
+.page-transport .trans-input-taille input {
+    position:relative;
+    width: 25%; /* Ajuste la largeur */
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+    align-items:center;
+    margin-bottom: 20px;
+}
+
+.page-transport .bouton button{
+    background-color: brown;
+}
+
+.page-transport select {
+    width: 60%; /* Ajoute de la largeur */
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: white;
+    font-size: 16px;
+    margin-bottom: 30px; /* Espacement entre chaque input */
+}
+
+.page-transport option {
+    padding: 10px;
+}
+
+.page-transport .separator-hor{
+    position:relative;
+    background-color: brown;     /* Couleur de la barre verticale */
+    display: inline-block; /* Garde le séparateur sur la même ligne */
+    vertical-align: middle; /* Aligne verticalement avec le texte */
+    width:90%;
+    height:2px;
+    margin-top: 10px;
+    margin-bottom: 30px; /* Optionnel : ajoute un espace en dessous de la barre */
+}
+
+.prix-container {
+    display: flex; /* Aligner les éléments horizontalement */
+    justify-content: flex-end; /* Aligner le contenu sur la gauche */
+    margin-right: 30px;
+}
+
+.prix-label {
+    font-weight: bold; /* Met le texte en gras */
+    margin-right: 10px; /* Ajoute un espace entre le label et le prix */
+    font-size: 16px;;
+}
+
+.prix {
+    font-weight: bold;
+    font-size: 16px; /* Taille du prix */
+    color: green; /* Change la couleur du texte */
+}
+

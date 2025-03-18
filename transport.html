@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BTM | Bendaguir Transport Marocain sarl </title>
+    <link rel="icon" type="image/png" href="Image_logo.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="./style.css">
+
+</head>
+
+<body class="page-transport">
+    <header class="header">
+        <div class="container-fluid">
+            <div class="row align-items-center">
+                <!-- Section gauche : Logo + Menu déroulant -->
+                <div class="col-6 col-lg-8 d-flex align-items-center">
+                    
+                    <a href="index.html">
+                    <div class="logo">
+                        <img src="logo.png" alt="Logo Entreprise">
+                    </div>
+                    </a>
+                    
+                    <div class="container_info">
+                        <nav class="nav-menu ml-3">
+                            <button class="menu-btn"><b> > Services </b></button>
+                            <div class="dropdown">
+                                <a href="transport.html">Transport de marchandises</a>
+                                <a href="demenagement.html">Demenagement</a>
+                                <a href="messagerie.html">Messagerie</a>
+                            </div>
+                        </nav>
+
+                        <span class="separator"></span> 
+
+                        <div class="nav-menu ml-3">
+                            <a href="contact.html" class="contact"> > Contact</a>
+                        </div>
+
+                        <span class="separator"></span>
+                    </div>
+                </div>
+    
+                <!-- Section droite : Bouton "Connect/Login" -->
+                <div class="col-6 col-lg-4 text-right">
+                    <a href="login.html" class="login-button">Connect / Login</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="content">
+        <div class="container-form">
+            <br>
+            <div class="title-transport">
+                <b>Votre demande</b>
+            </div>
+            <br>
+            <form class="transport-form" action="">
+                <div id="Prenom input" class="trans-input">
+                    <input id="prenom" name="prenom" placeholder="Prénom" type="text" required>
+                </div>
+
+                <div id="Nom input" class="trans-input">
+                    <input id="nom" name="nom" placeholder="Nom de famille" type="text" required>
+                </div>
+
+                <div id="Date input" class="trans-input-date">
+                    <label for="date">Date de récupération : </label>
+                    <input id="date" name="date"  type="date" required>
+                </div>
+
+                <div id="Adresse-recup input" class="trans-input">
+                    <input id="adresse-recup" name="adresse-recup" placeholder="Adresse de récupération des marchandises" type="text" required>
+                </div>
+
+                <div id="Adresse-livr input" class="trans-input">
+                    <input id="adresse-livr" name="adresse-livr" placeholder="Adresse de livraison des marchandises" type="text" required>
+                </div>
+
+                <div id="Nombre input" class="trans-input">
+                    <input id="nombre" name="nombre" placeholder="Nombre des marchandises" type="number" required>
+                </div>
+
+                <label for="choix">Type de marchandise :</label>
+                <select id="choix" name="choix">
+                    <option value="solution1">Emballage Vide</option>
+                    <option value="solution2">Emballage Fragile</option>
+                    <option value="solution3">Emballage Normal</option>
+                </select>
+
+                <div id="Poids input" class="trans-input">
+                    <input id="poids" name="poids" placeholder="Poids (en kg)" type="number" required>
+                </div>
+
+                <div id="Taille input" class="trans-input-taille">
+                    <label for="taille_emballage">Taille emballage :</label>
+                    <input type="number" id="largeur" name="largeur" placeholder="Largeur" required>
+                    <label> x </label>
+                    <input type="number" id="longueur" name="longueur" placeholder="Longueur" required>
+
+                </div> 
+
+                <span class="separator-hor"></span>
+                <div class="prix-container">
+                    <p class="prix-label">Prix de la demande : </p>
+                    <output class="prix" name="prix">100€</output>
+                </div>
+                <span class="separator-hor"></span>
+
+
+
+                <div class="bouton">
+                    <button type="bouton" id="livrer" onclick="verification_livraison()">
+                        Passer la livraison
+                    </button>
+
+                <br> <br>
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="vérificateur.js"></script>
+</body>
+
+
+</html>
