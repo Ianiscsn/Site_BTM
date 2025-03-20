@@ -3,12 +3,139 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> BTM </title>
+    <title>BTM | Bendaguir Transport Marocain sarl </title>
+    <link rel="icon" type="image/png" href="image_logo.jpg">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="./style.css">
+
 </head>
 
-<body>
-    <p> Demenagement </p>
+<body class="page-demenagement">
+    <header class="header">
+        <div class="container-fluid">
+            <div class="row align-items-center">
+                <!-- Section gauche : Logo + Menu déroulant -->
+                <div class="col-8 col-lg-10 d-flex align-items-center">
+                    
+                    <a href="index.html">
+                    <div class="logo">
+                        <img src="image_logo.jpg" alt="Logo Entreprise">
+                    </div>
+                    </a>
+                    
+                    <div class="container_info">
+                        <a href="transport.html" class="contact">
+                            <p> Transport de marchandises </p>
+                        </a>
+
+                        <span class="separator"></span> 
+
+                        <a href="demenagement.html" class="contact-act">
+                            <p> Déménagement </p>
+                        </a>
+
+                        <span class="separator"></span>
+
+                        <a href="messagerie.html" class="contact">
+                            <p> Messagerie </p>
+                        </a>
+                    </div>
+                </div>
+    
+                <!-- Section droite : Bouton "Connect/Login" -->
+                <div class="col-4 col-lg-2 text-right">
+                    <a href="contact.html" class="login-button">Contact</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="top">
+        <b> 
+            BTM Transport - Votre expert en déménagement en France et au Maroc
+            Nous assurons un service fiable, sécurisé et sur mesure pour un 
+            déménagement en toute sérénité.
+        </b>
+    </div>
+
+    <div class="content">
+        <div class="container-bigimage">
+            <img src="Image_demenagement_ver.jpg" alt="" class="image-big">
+        </div>
+
+        <div class="container-form">
+            <br>
+            <div class="title-transport">
+                <b>Votre demande</b>
+            </div>
+            <br>
+            <form class="transport-form" action="">
+                <div id="Prenom input" class="trans-input">
+                    <input id="prenom" name="prenom" placeholder="Prénom" type="text" required>
+                </div>
+
+                <div id="Nom input" class="trans-input">
+                    <input id="nom" name="nom" placeholder="Nom de famille" type="text" required>
+                </div>
+
+                <div id="Mail input" class="trans-input">
+                    <input id="mail" name="mail" placeholder="Adresse email" type="email" required>
+                </div>
+
+                <div id="Date input" class="trans-input-date">
+                    <label for="date">Date de déménagement : </label>
+                    <input id="date" name="date"  type="date" required>
+                </div>
+
+                <span class="separator-hor"></span>
+
+                <div id="Adresse-init input" class="trans-input">
+                    <input id="adresse-init" name="adresse-init" placeholder="Adresse initiale" type="text" required>
+                </div>
+
+                <label for="type_init"> Type de logement :</label>
+                <select id="type_init" name="type_init" class="trans-input-type">
+                    <option value="solution1">Maison</option>
+                    <option value="solution2">Appartement</option>
+                </select>
+
+                <div id="Precision-init input" class="trans-input">
+                    <input id="precision-init" name="precision-init" placeholder="Information complémentaire (étage, ...)" type="text" required>
+                </div>
+
+                <div id="Surface-init input" class="trans-input">
+                    <input id="surface-init" name="surface-init" placeholder="Surface du logement initiale (en m²)" type="number" required>
+                </div>
+
+                <span class="separator-hor"></span>
+
+                <div id="Adresse-fin input" class="trans-input">
+                    <input id="adresse-fin" name="adresse-fin" placeholder="Adresse finale" type="text" required>
+                </div>
+
+                <label for="type_fin"> Type de logement :</label>
+                <select id="type_fin" name="type_init">
+                    <option value="solution1">Maison</option>
+                    <option value="solution2">Appartement</option>
+                </select>
+
+                <div id="Precision-fin input" class="trans-input">
+                    <input id="precision-fin" name="precision-fin" placeholder="Information complémentaire (étage, ...)" type="text" required>
+                </div>
+
+                <div class="bouton">
+                    <button type="bouton" id="livrer" onclick="verification_livraison()">
+                        Envoyer la demande
+                    </button>
+
+                <br> <br>
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="vérificateur.js"></script>
 </body>
 
 
 </html>
+
