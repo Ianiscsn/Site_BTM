@@ -33,7 +33,7 @@ document.addEventListener("DOMContentLoaded", function() {
                     
                     <div class="trans-input">
                         <label class="type-label"> Type de marchandise :  </label>
-                        <select name="type-${i}" class="type-select">
+                        <select id="type-${i}" name="type-${i}" class="type-select">
                             <option value="Emballage Vide">Emballage Vide</option>
                             <option value="Emballage Fragile">Emballage Fragile</option>
                             <option value="Accessoires automobiles">Accessoires automobiles</option>
@@ -48,16 +48,16 @@ document.addEventListener("DOMContentLoaded", function() {
                         </select>
                     </div>
                     <div class="trans-input">
-                        <input name="type_desc-${i}" placeholder="Déscriptif du contenu" type="text" required>
+                        <input id="desc-${i}" name="type_desc-${i}" placeholder="Déscriptif du contenu" type="text" required>
                     </div>
                     <div class="trans-input">
-                        <input name="poids-${i}" placeholder="Poids (en kg)" type="number" required>
+                        <input id="poids-${i}" name="poids-${i}" placeholder="Poids (en kg)" type="number" required>
                     </div>
                     <div class="trans-input-taille">
                         <label for="taille_emballage">Taille emballage :</label>
-                        <input type="number" name="largeur-${i}" placeholder="Largeur" required>
+                        <input id="largeur-${i}" type="number" name="largeur-${i}" placeholder="Largeur" required>
                         <label> x </label>
-                        <input type="number" name="longueur-${i}" placeholder="Longueur" required>
+                        <input id="longueur-${i}" type="number" name="longueur-${i}" placeholder="Longueur" required>
                     </div>
                 `;
 
