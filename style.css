@@ -518,7 +518,6 @@ a {
     .contact1 {
         position : relative;
         left : 10px;
-        top : 60px;
         z-index : 1000000;
         width : 90%;
         height : 75px;
