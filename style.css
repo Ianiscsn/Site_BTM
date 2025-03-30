@@ -518,6 +518,7 @@ a {
     .contact1 {
         position : relative;
         left : 10px;
+        top : 150px;
         z-index : 1000000;
         width : 90%;
         height : 75px;
@@ -540,7 +541,8 @@ a {
     
     .contact2 {
         position : relative;
-        left : 10px;;
+        left : 10px;
+        top : 225px;
         z-index : 1000000;
         width : 90%;
         height : 75px;
@@ -564,6 +566,7 @@ a {
     .contact3 {
         position : relative;
         left : 20px;
+        top: 300px;
         z-index : 1000000;
         width : 90%;
         height : 75px;
