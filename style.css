@@ -439,7 +439,77 @@ a {
     border-bottom: 1px solid darkred;
 }
 
+.contact1 {
+    position : fixed;
+    left : 20%;
+    top : 60px;
+    z-index : 1000000;
+    width : 15%;
+    height : 75px;
+    background-color: white;
+    color : darkred;
+    text-align: center;
+    border: 1px solid brown;
+}
 
+.contact1 p{
+    position : relative;
+    top : 20%;
+}
+
+.contact1:hover {
+    background-color: whitesmoke;
+    border-top: 1px solid darkred;
+    border-bottom: 1px solid darkred;
+}
+
+.contact2 {
+    position : fixed;
+    left : 35%;
+    top : 60px;
+    z-index : 1000000;
+    width : 15%;
+    height : 75px;
+    background-color: white;
+    color : darkred;
+    text-align: center;
+    border: 1px solid brown;
+}
+
+.contact2 p{
+    position : relative;
+    top : 38%;
+}
+
+.contact2:hover {
+    background-color: whitesmoke;
+    border-top: 1px solid darkred;
+    border-bottom: 1px solid darkred;
+}
+
+.contact3 {
+    position : fixed;
+    left : 50%;
+    top : 60px;
+    z-index : 1000000;
+    width : 15%;
+    height : 75px;
+    background-color: white;
+    color : darkred;
+    text-align: center;
+    border: 1px solid brown;
+}
+
+.contact3 p{
+    position : relative;
+    top : 38%;
+}
+
+.contact3:hover {
+    background-color: whitesmoke;
+    border-top: 1px solid darkred;
+    border-bottom: 1px solid darkred;
+}
 
 
 

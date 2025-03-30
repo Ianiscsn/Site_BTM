@@ -78,3 +78,21 @@
             </div>
         </div>
     </header>
+
+
+
+// bhyxe
+
+<div class="container_info">
+        <a href="transport.html" class="contact">
+            <p>Transport de marchandises</p>
+        </a>
+        <span class="separator"></span>
+        <a href="demenagement.html" class="contact">
+            <p>Déménagement</p>
+        </a>
+        <span class="separator"></span>
+        <a href="messagerie.html" class="contact">
+            <p>Messagerie</p>
+        </a>
+    </div>
