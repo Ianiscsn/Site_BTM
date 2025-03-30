@@ -124,14 +124,35 @@ a {
 
 .container_info{
     position:relative;
-    width:600px;
+    width:630px;
     height:75px;
     top:50px;
     left: 50px;
     background-color: white;
     border: 1px solid darkred; /* Contour rouge */
     display:flex;
+    flex-wrap: wrap;
 }
+
+
+/* Sur les petits écrans, chaque lien prend la largeur complète */
+@media (max-width: 768px) {
+    .container_info a {
+        width: 100%;
+        text-align: center; /* Centrer le texte pour une meilleure lisibilité */
+        padding: 10px 0; /* Un peu de padding pour les clics faciles */
+    }
+
+    .separator {
+        display: none; /* Cacher les séparateurs sur les petits écrans */
+    }
+
+    /* Réorganiser les sections pour qu'elles soient toutes sous le logo sur mobile */
+    .col-8.col-lg-10 {
+        flex: 1 1 100%; /* Utilise toute la largeur de l'écran sur les petits appareils */
+    }
+}
+
 
 /* 🔹 Menu "Services" */
 .nav-menu {
@@ -198,7 +219,7 @@ a {
     top:7px;
 }
 
-.contact{
+.container_info .contact{
     position:relative;
     color:brown;
     text-decoration:none;
@@ -232,7 +253,7 @@ a {
 
 }
 
-.contact:hover {
+.container_info .contact:hover {
     background-color: whitesmoke;
     border-top: 1px solid darkred;
     border-bottom: 1px solid darkred;
