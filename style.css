@@ -518,7 +518,7 @@ a {
     .contact1 {
         position : relative;
         left : 10px;
-        top : 150px;
+        top : 400px;
         z-index : 1000000;
         width : 90%;
         height : 75px;
@@ -526,6 +526,7 @@ a {
         color : darkred;
         text-align: center;
         border: 1px solid brown;
+        background-color: blue;
     }
     
     .contact1 p{
