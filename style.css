@@ -559,6 +559,30 @@ a {
         margin-bottom: 100px;
         margin-top : 50px;
     }
+
+    .image-container:hover .image_trans {
+        opacity: 1; /* L'image disparaît */
+    }
+    
+    .image-container:hover .texte_trans {
+        opacity: 0; /* Le texte apparaît */
+    }
+
+    .image-container:hover .image_dem {
+        opacity: 1; /* L'image disparaît */
+    }
+    
+    .image-container:hover .texte_dem {
+        opacity: 0; /* Le texte apparaît */
+    }
+
+    .image-container:hover .image_mess {
+        opacity: 1; /* L'image disparaît */
+    }
+    
+    .image-container:hover .texte_mess {
+        opacity: 0; /* Le texte apparaît */
+    }
 }
 
 
