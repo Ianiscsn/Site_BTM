@@ -393,12 +393,6 @@ a {
         left : 0%;
     }
     
-    .contact_bouton {
-        position : relative;
-        width:10%;
-        left : 0px;;
-    }
-
     .contact1 {
         display: flex;
         position : fixed;
@@ -518,7 +512,7 @@ a {
         position : relative; 
         left : 0%;
         top : 0%;
-        width : 40%;
+        width : 60%;
         height : 100px;
         display : flex;
         justify-content: flex-start; /* Aligne les éléments à gauche */
