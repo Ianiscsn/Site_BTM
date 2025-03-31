@@ -655,6 +655,7 @@ PAGE CONTACT
     .page-contact .texte{
         font-size: 12px;
         color : darkred;
+        background-color: darkred;
     }
 
     .page-contact .login-button{
@@ -721,7 +722,6 @@ PAGE TRANSPORT
 
     .page-transport .content{
         display : flex;
-        justify-content: flex-start;
         top:80px;
     }
 }
@@ -934,7 +934,6 @@ PAGE DEMENAGEMENT
 
     .page-demenagement .content{
         display : flex;
-        justify-content: flex-end;
         top:80px;
     }
 }
@@ -1113,7 +1112,6 @@ PAGE MESSAGERIE
 
     .page-messagerie .content{
         display : flex;
-        justify-content: flex-start;
         top : 80px;
     }
 }
