@@ -435,6 +435,7 @@ a {
     .contact2 p{
         position : relative;
         top : 38%;
+        left : 20%;
     }
     
     .contact2:hover {
@@ -460,6 +461,7 @@ a {
     .contact3 p{
         position : relative;
         top : 38%;
+        left : 25%;
     }
     
     .contact3:hover {
@@ -656,6 +658,12 @@ PAGE TRANSPORT
 /*
 /*
 */
+.page-transport .contact1 {
+    background-color: brown;
+    color : white;
+    box-shadow: 5px 20px 40px rgba(165, 10, 10, 0.2); 
+
+}
 
 .page-transport .content{
     display : flex;
@@ -843,6 +851,12 @@ PAGE DEMENAGEMENT
 /*
 */
 
+.page-demenagement .contact2 {
+    color : white;
+    background-color: brown;
+    box-shadow: 5px 20px 40px rgba(165, 10, 10, 0.2); 
+}
+
 .page-demenagement .content{
     display : flex;
     justify-content: flex-end;
@@ -995,6 +1009,12 @@ PAGE MESSAGERIE
 /*
 /*
 */
+
+.page-messagerie .contact3 {
+    color : white;
+    background-color: brown;
+    box-shadow: 5px 20px 40px rgba(165, 10, 10, 0.2); 
+}
 
 .page-messagerie .content{
     display : flex;
