@@ -629,6 +629,7 @@ PAGE CONTACT
     .page-contact .content{
         position : relative;
         display : flex;
+        flex-direction: column;
         gap:35px;
         top:80px;
     }
