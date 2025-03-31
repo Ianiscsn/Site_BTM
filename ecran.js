@@ -1,6 +1,6 @@
 function checkScreenSize() {
     if (window.innerWidth < 768) {
-        document.querySelectorAll(".contact1, .contact2, .contact3, .texte_trans, .texte_dem, .texte_mess, .container-bigimage").forEach(el => el.remove());
+        document.querySelectorAll(".contact1, .contact2, .contact3, .texte_trans, .texte_dem, .texte_mess, .container-bigimage, .image-big").forEach(el => el.remove());
     }
 }
 

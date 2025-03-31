@@ -724,7 +724,7 @@ PAGE TRANSPORT
     .page-transport .top {
         position : relative;
         top : 180px;
-        left: 4%;
+        left: 2.5%;
         width : 95%;
         color : darkred;
         font-size: 20px;
@@ -740,7 +740,7 @@ PAGE TRANSPORT
         position : relative;
         width : 95%;
         top:130px;
-        left : 2.5%;
+        left : 5%;
         background-color: white; 
         border: 3px solid darkred; 
         border-radius: 10px; 
@@ -948,8 +948,8 @@ PAGE DEMENAGEMENT
     .page-demenagement .top {
         position : relative;
         top : 180px;
-        left: 2.5%;
         width : 95%;
+        left : 2.5%;
         color : darkred;
         font-size: 20px;
         text-align: center;
@@ -964,7 +964,6 @@ PAGE DEMENAGEMENT
         position : relative;
         width : 90%;
         top:130px;
-        left:2.5%;
         background-color: white; 
         border: 3px solid darkred; 
         border-radius: 10px; 
@@ -1154,7 +1153,7 @@ PAGE MESSAGERIE
         position : relative;
         width : 90%;
         top:130px;
-        left : 4%;
+        left : 5%;
         background-color: white; 
         border: 3px solid darkred; 
         border-radius: 10px; 
