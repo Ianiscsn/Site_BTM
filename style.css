@@ -655,6 +655,8 @@ PAGE CONTACT
     .page-contact .texte{
         font-size: 18px;
         color : darkred;
+        background-color: blue;
+
     }
 
     .page-contact .login-button{
