@@ -725,7 +725,7 @@ PAGE TRANSPORT
     .page-transport .top {
         position : relative;
         top : 180px;
-        left: 2.5%;
+        left: 4%;
         width : 95%;
         color : darkred;
         font-size: 20px;
@@ -985,7 +985,6 @@ PAGE DEMENAGEMENT
     position : relative;
     top :130px;
     width : 700px;
-    padding-left: 20px;
 }
 
 .page-demenagement .title-transport{
@@ -1156,7 +1155,7 @@ PAGE MESSAGERIE
         position : relative;
         width : 90%;
         top:130px;
-        left : 2.5%;
+        left : 4%;
         background-color: white; 
         border: 3px solid darkred; 
         border-radius: 10px; 
