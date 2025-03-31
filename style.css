@@ -358,16 +358,7 @@ a {
 
 
 
-.logo_place {
-    position : relative; 
-    left : 0%;
-    top : 0%;
-    width : 80%;
-    height : 100px;
-    display : flex;
-    justify-content: flex-start; /* Aligne les éléments à gauche */
-    align-items: center; /* Aligne verticalement l'image au centre (si nécessaire) */
-}
+
 
 .logo_place a {
     position : relative;
@@ -408,6 +399,17 @@ a {
 
 
 @media (min-width: 1024px) {
+    .logo_place {
+        position : relative; 
+        left : 0%;
+        top : 0%;
+        width : 80%;
+        height : 100px;
+        display : flex;
+        justify-content: flex-start; /* Aligne les éléments à gauche */
+        align-items: center; /* Aligne verticalement l'image au centre (si nécessaire) */
+    }
+
     .contact1 {
         display: flex;
         position : fixed;
@@ -523,6 +525,17 @@ a {
 
 
 @media (max-width: 767px) {
+    .logo_place {
+        position : relative; 
+        left : 0%;
+        top : 0%;
+        width : 40%;
+        height : 100px;
+        display : flex;
+        justify-content: flex-start; /* Aligne les éléments à gauche */
+        align-items: center; /* Aligne verticalement l'image au centre (si nécessaire) */
+    }
+
     .contact1 {
         display : none;
     }
