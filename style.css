@@ -585,10 +585,12 @@ a {
 PAGE CONTACT
 */
 
+
 @media (min-width: 1024px) {
     .page-contact .content{
         position : relative;
         display : flex;
+        flex-direction: row;
         gap:35px;
         top:80px;
     }
@@ -610,6 +612,7 @@ PAGE CONTACT
 
     .page-contact .texte{
         font-size: 18px;
+        color : darkred;
     }
 
     .page-contact .login-button{
@@ -636,9 +639,8 @@ PAGE CONTACT
 
     .page-contact .container-maroc{
         position:relative;
-        top:50px;
-        width:95%;
-        left : 2.5%;
+        width:100%;
+        height: auto;
         margin-bottom: 20px;
     }
 
@@ -652,6 +654,7 @@ PAGE CONTACT
 
     .page-contact .texte{
         font-size: 18px;
+        color : darkred;
     }
 
     .page-contact .login-button{

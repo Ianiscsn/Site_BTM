@@ -83,3 +83,53 @@
 
 
 
+
+
+// Contact
+
+<div class="content">
+        <div class="container-maroc">
+            <div class="title">
+                <b>AAAFrance</b>
+                <span class="icon">
+                    <img src="Tel_icon.png" class="img-fluid" alt="">
+                </span>
+                <span class="texte"><b> +33 6 27 95 85 36 </b></span>
+            </div>
+            
+            <br> <br>
+            <div class="container-plan">
+                <div class="footer_teasers_accordion">
+                    <ul class="link-list">                       
+                        <div id="map1" style="height: 350px; width: 100%;"></div>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-maroc">
+            <div class="title">
+                <b>Maroc</b>
+                <span class="icon">
+                    <img src="Tel_icon.png" class="img-fluid" alt="">
+                </span>
+                <span class="texte"><b> +212 5 28 30 80 90 </b></span>
+                <span class="icon">
+                    <img src="Tel_icon.png" class="img-fluid" alt="">
+                </span>
+                <span class="texte"><b> +212 6 66 12 14 16 </b></span>
+            </div>
+            <br> <br>
+            <div class="container-plan">
+                <div class="footer_teasers_accordion">
+                    <ul class="link-list">                        
+                        <div id="map2" style="height: 350px; width: 100%;"></div>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+
