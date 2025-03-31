@@ -636,8 +636,9 @@ PAGE CONTACT
     .page-contact .container-maroc{
         position:relative;
         top:50px;
-        width:48%;
-        height:400px;
+        width:95%;
+        left : 2.5%;
+        margin-bottom: 20px;
     }
 
     .page-contact .title{
@@ -663,6 +664,9 @@ PAGE CONTACT
         margin-left: 50px;
     }
 }
+
+
+
 
 
 
