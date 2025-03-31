@@ -526,6 +526,10 @@ a {
     .contact3 {
         display : none;
     }
+
+    .container_description {
+        font-size: 12px;
+    }
 }
 
 
