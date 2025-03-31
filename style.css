@@ -360,37 +360,8 @@ a {
 
 
 
-.logo_place a {
-    position : relative;
-    width : 150px;
-    height : 100%;
-    left : 0%;
-}
 
-.logo {
-    position : relative;
-    left : 0%;
-}
 
-.contact_bouton {
-    position : relative;
-    width:10%;
-    left : 0px;;
-}
-
-.container_info {
-    position : fixed;
-    left : 20%;
-    top : 60px;
-    z-index: 100000; /* Une valeur plus grande que celle du header */
-    width : 610px;
-}
-
-.container_info .contact:hover {
-    background-color: whitesmoke;
-    border-top: 1px solid darkred;
-    border-bottom: 1px solid darkred;
-}
 
 
 
@@ -408,6 +379,24 @@ a {
         display : flex;
         justify-content: flex-start; /* Aligne les éléments à gauche */
         align-items: center; /* Aligne verticalement l'image au centre (si nécessaire) */
+    }
+
+    .logo_place a {
+        position : relative;
+        width : 150px;
+        height : 100%;
+        left : 0%;
+    }
+    
+    .logo {
+        position : relative;
+        left : 0%;
+    }
+    
+    .contact_bouton {
+        position : relative;
+        width:10%;
+        left : 0px;;
     }
 
     .contact1 {
@@ -534,6 +523,24 @@ a {
         display : flex;
         justify-content: flex-start; /* Aligne les éléments à gauche */
         align-items: center; /* Aligne verticalement l'image au centre (si nécessaire) */
+    }
+
+    .logo_place a {
+        position : relative;
+        width : 150px;
+        height : 100%;
+        left : 0%;
+    }
+    
+    .logo {
+        position : relative;
+        left : 0%;
+    }
+    
+    .contact_bouton {
+        position : relative;
+        width:10%;
+        left : 0px;;
     }
 
     .contact1 {
