@@ -613,6 +613,7 @@ PAGE CONTACT
     .page-contact .texte{
         font-size: 18px;
         color : darkred;
+        margin-right: 50px;
     }
 
     .page-contact .login-button{
@@ -623,7 +624,6 @@ PAGE CONTACT
     .page-contact .icon {
         width : 20px;
         height : 20px;
-        margin-left: 50px;
     }
 }
 
@@ -657,6 +657,7 @@ PAGE CONTACT
         font-size: 12px;
         color : darkred;
         background-color: darkred;
+        margin-right: 20px;
     }
 
     .page-contact .login-button{
@@ -667,7 +668,6 @@ PAGE CONTACT
     .page-contact .icon {
         width : 20px;
         height : 20px;
-        margin-left: 50px;
     }
 }
 
